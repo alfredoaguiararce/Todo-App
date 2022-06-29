@@ -1,0 +1,13 @@
+.background-one {
+  position: absolute;
+  z-index: -1;
+  height: 400px;
+  bottom: 0;
+}
+
+.background-two {
+  position: absolute;
+  z-index: -1;
+  height: 400px;
+  bottom: 0;
+}

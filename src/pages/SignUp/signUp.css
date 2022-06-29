@@ -1,0 +1,28 @@
+.singUp-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 90vh;
+}
+.singUp-title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+.singUp-login {
+  display: grid;
+  place-items: center;
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+  background-color: rgb(35, 82, 211);
+  border-radius: 20px;
+}
+
+@media (min-width: 1000px) {
+  @media (min-height: 900px) {
+    .singUp-container {
+      min-height: 90%;
+    }
+  }
+}
